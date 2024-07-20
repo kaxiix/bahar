@@ -21,7 +21,8 @@ export default function AddToBag({
   price,
   price_id,
 }: ProductCart) {
-  const { addItem, handleCartClick } = useShoppingCart();
+  const { addItem, cartDetails, setItemQuantity, handleCartClick } =
+    useShoppingCart();
 
   const product = {
     name: name,
@@ -29,15 +30,18 @@ export default function AddToBag({
     price: price,
     currency: currency,
     image: urlFor(image).url(),
-    price_id: price_id,
+    id: price_id, // Make sure the id matches the key in cartDetails
   };
-  return (
-    <Button
-      onClick={() => {
-        addItem(product), handleCartClick();
-      }}
-    >
-      Add To Cart
-    </Button>
-  );
+
+  const handleAddToCart = () => {
+    const cartItem = cartDetails?.[price_id];
+    if (cartItem) {
+      setItemQuantity(price_id, cartItem.quantity + 1);
+    } else {
+      addItem(product);
+    }
+    handleCartClick();
+  };
+
+  return <Button onClick={handleAddToCart}>Add To Cart</Button>;
 }

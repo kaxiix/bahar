@@ -81,7 +81,7 @@ export default async function ProductPge({
 
             <div className="flex gap-2.5">
               <AddToBag
-                currency="USD"
+                currency="SAR"
                 description={data.description}
                 image={data.images[0]}
                 name={data.name}
@@ -90,7 +90,7 @@ export default async function ProductPge({
                 price_id={data.price_id}
               />
               <CheckoutNow
-                currency="USD"
+                currency="SAR"
                 description={data.description}
                 image={data.images[0]}
                 name={data.name}
