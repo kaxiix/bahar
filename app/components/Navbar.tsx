@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ShoppingBag } from "lucide-react";
 import { useShoppingCart } from "use-shopping-cart";
+import Image from "next/image";
 
 const links = [
   { name: "Home", href: "/" },
@@ -19,9 +20,7 @@ export default function Navbar() {
     <header className=" border-b">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
-          <h1 className="text-2xl md:text-4xl font-bold">
-            Bahar<span className="text-primary">Jeddah</span>
-          </h1>
+          <Image alt="logo" src={"/logo.png"} width={100} height={50} />
         </Link>
 
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
@@ -29,7 +28,7 @@ export default function Navbar() {
             <div key={idx}>
               {pathname === link.href ? (
                 <Link
-                  className="text-lg font-semibold text-primary"
+                  className="text-lg font-semibold text-[#409339]"
                   href={link.href}
                 >
                   {link.name}
@@ -37,7 +36,7 @@ export default function Navbar() {
               ) : (
                 <Link
                   href={link.href}
-                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-primary"
+                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-black"
                 >
                   {link.name}
                 </Link>

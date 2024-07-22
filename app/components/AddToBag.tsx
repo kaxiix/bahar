@@ -43,5 +43,9 @@ export default function AddToBag({
     handleCartClick();
   };
 
-  return <Button onClick={handleAddToCart}>Add To Cart</Button>;
+  return (
+    <Button className="bg-black hover:bg-[#409339]" onClick={handleAddToCart}>
+      Add To Cart
+    </Button>
+  );
 }
