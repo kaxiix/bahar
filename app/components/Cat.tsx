@@ -26,6 +26,9 @@ const Cat = () => {
         <DropdownMenuLabel>Categories</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
+          <a href="/all">
+            <DropdownMenuRadioItem value="top">All</DropdownMenuRadioItem>
+          </a>
           <a href="/Oil">
             <DropdownMenuRadioItem value="top">Oil</DropdownMenuRadioItem>
           </a>
