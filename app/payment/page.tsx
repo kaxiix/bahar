@@ -55,7 +55,7 @@ const Page: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row w-full min-h-screen">
       {/* left/top */}
-      <div className="w-full overflow-y-auto md:w-1/2 h-[50vh] border-4 rounded-2xl border-primary/20 m-5 md:h-screen">
+      <div className="w-full overflow-y-auto md:w-1/2 h-[50vh] border-4 md:rounded-2xl border-primary/20 md:m-5 md:h-screen">
         {/* map cart items */}
         {cartCount === 0 ? (
           <div className="w-full h-full flex justify-center items-center">
@@ -63,11 +63,13 @@ const Page: React.FC = () => {
           </div>
         ) : (
           <>
-            <div className="mx-20 mt-10 text-4xl pb-10">Order Summary</div>
+            <div className=" mx-5 md:mx-20 mt-10 text-2xl md:text-4xl pb-5">
+              Order Summary
+            </div>
             {Object.values(cartDetails ?? {}).map((entry) => (
               <li
                 key={entry.id}
-                className="flex py-6 mx-20 border-b-2 border-primary/70"
+                className="flex py-3 md:py-6 mx-5 md:mx-20 border-b-2 border-primary/70"
               >
                 <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                   <Image
@@ -80,22 +82,24 @@ const Page: React.FC = () => {
 
                 <div className="ml-4 flex flex-1 flex-col">
                   <div>
-                    <div className="flex justify-between text-base font-medium text-gray-900">
+                    <div className="flex justify-between text-sm md:text-base font-medium text-gray-900">
                       <h3>{entry.name}</h3>
                       <p className="ml-4">SAR {entry.price}</p>
                     </div>
-                    <p className="mt-1 text-sm text-gray-500 line-clamp-2">
+                    <p className="mt-1 text-xs md:text-sm text-gray-500 line-clamp-2">
                       {entry.description}
                     </p>
                   </div>
 
                   <div className="flex flex-1 items-end justify-between text-sm">
-                    <p className="text-gray-500">QTY: {entry.quantity}</p>
+                    <p className="text-gray-500 font-bold">
+                      QTY: {entry.quantity}
+                    </p>
                   </div>
                 </div>
               </li>
             ))}
-            <div className="flex justify-between text-base mx-20 mt-10 p-5 rounded-lg border-2 border-black/30 font-medium text-gray-900">
+            <div className="flex justify-between text-base mb-10 mx-20 mt-10 p-5 rounded-lg border-2 border-black/30 font-medium text-gray-900">
               <p>Subtotal:</p>
               <p>SAR {totalPrice}</p>
             </div>
@@ -108,7 +112,7 @@ const Page: React.FC = () => {
         <form
           action="#"
           onSubmit={handleSubmit}
-          className="mx-20 max-w-screen-xl px-4 2xl:px-0"
+          className="md:mx-20 max-w-screen-xl px-5 2xl:px-0"
         >
           <div className="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12 xl:gap-16">
             <div className="min-w-0 flex-1 space-y-8">

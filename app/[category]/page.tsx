@@ -69,7 +69,7 @@ export default async function CategoryPage({
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             <div className="flex flex-col">
               {params.category === "all"
-                ? "all Products"
+                ? "All Products"
                 : `Our Products for ${params.category}`}
             </div>
           </h2>
