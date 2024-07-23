@@ -91,7 +91,10 @@ export default function ShoppingCartModal() {
 
             <div className="mt-6">
               <Link href="/payment">
-                <Button onClick={() => handleCartClick()} className="w-full">
+                <Button
+                  onClick={() => handleCartClick()}
+                  className="w-full bg-[#006d35] text-white"
+                >
                   Checkout
                 </Button>
               </Link>
@@ -102,7 +105,7 @@ export default function ShoppingCartModal() {
                 OR{" "}
                 <button
                   onClick={() => handleCartClick()}
-                  className="font-medium text-primary hover:text-primary/80"
+                  className="font-medium text-blue-700 hover:text-primary/80"
                 >
                   Continue Shopping
                 </button>

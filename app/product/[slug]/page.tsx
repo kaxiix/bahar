@@ -68,7 +68,7 @@ export default async function ProductPge({
               <span className="text-sm">2-4 Day Shipping</span>
             </div>
 
-            <div className="flex gap-2.5">
+            <div className="flex gap-5">
               <AddToBag
                 currency="SAR"
                 description={data.description}
@@ -78,7 +78,7 @@ export default async function ProductPge({
                 key={data._id}
                 price_id={data.price_id}
               />
-              <CheckoutNow
+              {/* <CheckoutNow
                 currency="SAR"
                 description={data.description}
                 image={data.images[0]}
@@ -86,7 +86,7 @@ export default async function ProductPge({
                 price={data.price}
                 key={data._id}
                 price_id={data.price_id}
-              />
+              /> */}
             </div>
 
             <p className="mt-12 text-base text-gray-500 tracking-wide">

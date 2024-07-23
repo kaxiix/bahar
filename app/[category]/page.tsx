@@ -2,6 +2,7 @@ import Link from "next/link";
 import { client } from "../lib/sanity";
 import Image from "next/image";
 import { simplifiedProduct } from "../interface"; // Ensure this path is correct
+import Cat from "@/app/components/Cat";
 
 async function getProducts(category: string): Promise<simplifiedProduct[]> {
   const query =
@@ -45,6 +46,7 @@ export default async function CategoryPage({
   if (!data.length) {
     return (
       <div className="bg-white">
+        <div>hello</div>
         <div className="mx-auto mt-8 max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             {params.category === "all"
@@ -59,12 +61,17 @@ export default async function CategoryPage({
 
   return (
     <div className="bg-white">
+      <div className="w-full px-36 pt-10 ">
+        <Cat />
+      </div>
       <div className="mx-auto mt-8 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-            {params.category === "all"
-              ? "All Products"
-              : `Our Products for ${params.category}`}
+            <div className="flex flex-col">
+              {params.category === "all"
+                ? "all Products"
+                : `Our Products for ${params.category}`}
+            </div>
           </h2>
         </div>
 
@@ -72,7 +79,7 @@ export default async function CategoryPage({
           {data.map((product) => (
             <div key={product._id} className="group relative">
               <Link href={`/product/${product.slug}`}>
-                <div className="aspect-square w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
+                <div className="aspect-square w-full overflow-hidden  rounded-2xl bg-gray-200 group-hover:opacity-75 lg:h-80">
                   <Image
                     src={product.imageUrl}
                     alt="Product image"

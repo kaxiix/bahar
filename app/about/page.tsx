@@ -6,7 +6,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <section className="w-full md:px-20 md:py-10 ">
+      <section className="w-full md:px-20 md:py-10 bg-[url('/bg.svg')] bg-fixed border-b-2 ">
         <Image
           src="/about.webp"
           width={1200}
@@ -58,7 +58,7 @@ const page = () => {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
-                  src="/placeholder.svg"
+                  src="/guy.webp"
                   width={200}
                   height={200}
                   alt="John Doe"
@@ -69,7 +69,7 @@ const page = () => {
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
-                  src="/placeholder.svg"
+                  src="/guy2.webp"
                   width={200}
                   height={200}
                   alt="Jane Smith"
@@ -80,7 +80,7 @@ const page = () => {
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
-                  src="/placeholder.svg"
+                  src="/guy3.webp"
                   width={200}
                   height={200}
                   alt="Bob Johnson"
@@ -107,11 +107,12 @@ const page = () => {
             </p>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
               <div className="rounded-lg border bg-card p-6 shadow-sm">
-                <h3 className="text-lg font-semibold">Web Development</h3>
+                <h3 className="text-lg font-semibold">Wholesale food items</h3>
                 <p className="text-muted-foreground">
-                  Our team of experienced web developers can create custom
-                  websites and web applications that are both visually appealing
-                  and highly functional.
+                  Our team of experts offers top-quality wholesale food items,
+                  ensuring freshness and exceptional taste. We provide reliable,
+                  timely delivery for restaurants, hotels, and catering
+                  services, helping you serve your customers with the best.
                 </p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">

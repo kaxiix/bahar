@@ -47,9 +47,9 @@ const Page: React.FC = () => {
     const content = await rawResponse.json();
 
     // print to screen
-    alert("Our team will contact you shortly");
+
     clearCart();
-    router.push("/");
+    router.push("/success");
   };
 
   return (
