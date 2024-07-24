@@ -60,7 +60,7 @@ export default async function CategoryPage({
   }
 
   return (
-    <div className="bg-white border-t-2">
+    <div className="bg-white ">
       <div className="w-full px-36 pt-10 ">
         <Cat />
       </div>
