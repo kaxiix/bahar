@@ -19,8 +19,8 @@ export default function Navbar() {
   const pathname = usePathname();
   const { handleCartClick } = useShoppingCart();
   return (
-    <header className="  border-b bg-gray-200">
-      <div className="flex items-center  justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
+    <header className="  bg-[url('/bg.svg')] bg-fixed  pb-5   ">
+      <div className="flex items-center  backdrop-blur-lg bg-green-200  md:rounded-b-2xl  justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
           <Image alt="logo" src={"/logo.png"} width={100} height={50} />
         </Link>
