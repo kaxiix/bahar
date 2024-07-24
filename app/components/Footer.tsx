@@ -17,19 +17,20 @@ const Footer = () => {
             Home
           </Link>
           <Link href="/all" className="hover:underline" prefetch={false}>
-            products
+            Products
           </Link>
           <Link href="/about" className="hover:underline" prefetch={false}>
-            about
-          </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
-            Contact
+            About
           </Link>
         </div>
         <div className="grid gap-1 ">
           <h3 className="font-semibold">Contact</h3>
-          <p className="text-sm">baharjeddahfoodco@gmail.com</p>
-          <p className="text-sm">+966 53 102 4948</p>
+          <a href="mailto:baharjeddahfoodco@gmail.com">
+            <p className="text-sm">baharjeddahfoodco@gmail.com</p>
+          </a>
+          <a href="https://wa.me/+966531024948" target="_blank">
+            <p className="text-sm">+966 53 102 4948</p>
+          </a>
         </div>
         <div className="flex flex-col items-start gap-1">
           <p className="text-muted-foreground">
