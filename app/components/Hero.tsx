@@ -33,11 +33,13 @@ export default async function Hero() {
         <div className="mb-8 flex flex-wrap justify-between md:mb-16">
           <div className="mb-6 flex w-full hover:translate-x-1 transform transition-transform duration-300 flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
             <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">
-              we will sell you murgi if you pay
+              Committed To Culinary Perfection
             </h1>
             <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-              We sell only the most exclusive and high quality murgi for you. We
-              are the best so come and shop with us.
+              Bahar jeddah food company delivers top quality ingredients to the
+              kingdoms finest establishments, insuring you can craft every dish
+              with excellence and care. Trust us for unmatched quality and
+              service.
             </p>
           </div>
 
