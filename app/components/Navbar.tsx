@@ -19,13 +19,13 @@ export default function Navbar() {
   const pathname = usePathname();
   const { handleCartClick } = useShoppingCart();
   return (
-    <header className="   pb-5   ">
-      <div className="flex items-center bg-[url('/bg.svg')] bg-fixed  backdrop-blur-lg bg-green-200  md:rounded-b-2xl  justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
+    <header className=" border-b-2 border-black/20  bg-[url('/bg.svg')] bg-fixed  backdrop-blur-lg bg-[#066936]/20   ">
+      <div className="flex items-center   md:rounded-b-2xl  justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
           <Image alt="logo" src={"/logo.png"} width={100} height={50} />
         </Link>
 
-        <nav className="hidden gap-12 lg:flex 2xl:ml-16">
+        <nav className="hidden gap-12 lg:flex 2xl:ml-16 ">
           {links.map((link, idx) => (
             <div key={idx}>
               {pathname === link.href ? (

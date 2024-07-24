@@ -64,10 +64,10 @@ export default async function CategoryPage({
       <div className="w-full px-36 pt-10 ">
         <Cat />
       </div>
-      <div className="mx-auto mt-8 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="flex justify-between items-center">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-            <div className="flex flex-col">
+      <div className="mx-auto mt-8 max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8">
+        <div className="flex justify-between items-center ">
+          <h2 className="text-2xl font-bold tracking-tight  text-gray-900">
+            <div className="flex flex-col ">
               {params.category === "all"
                 ? "All Products"
                 : `Our Products for ${params.category}`}
@@ -83,7 +83,7 @@ export default async function CategoryPage({
                   <Image
                     src={product.imageUrl}
                     alt="Product image"
-                    className="w-full h-full object-cover object-center lg:h-full lg:w-full"
+                    className="w-full h-full  object-cover object-center lg:h-full lg:w-full"
                     width={300}
                     height={300}
                   />
