@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div className="flex flex-col items-start gap-4">
           <Link href="#" className="flex items-center gap-2" prefetch={false}>
-            <Image alt="logo" src={"/logo.png"} width={100} height={100} />
+            <Image alt="logo" src={"/logo.png"} width={150} height={100} />
           </Link>
         </div>
         <div className="grid gap-1">
@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="grid gap-1 ">
           <h3 className="font-semibold">Contact</h3>
           <p className="text-sm">baharjeddahfoodco@gmail.com</p>
-          <p className="text-sm">+1 (555) 123-4567</p>
+          <p className="text-sm">+966 53 102 4948</p>
         </div>
         <div className="flex flex-col items-start gap-1">
           <p className="text-muted-foreground">

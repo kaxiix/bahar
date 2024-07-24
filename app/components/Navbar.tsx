@@ -22,7 +22,13 @@ export default function Navbar() {
     <header className=" border-b-2 border-black/20  bg-[url('/bg.svg')] bg-fixed  backdrop-blur-lg bg-[#066936]/20   ">
       <div className="flex items-center   md:rounded-b-2xl  justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
-          <Image alt="logo" src={"/logo.png"} width={100} height={50} />
+          <Image
+            className="hover:scale-105"
+            alt="logo"
+            src={"/logo.png"}
+            width={100}
+            height={50}
+          />
         </Link>
 
         <nav className="hidden gap-12 lg:flex 2xl:ml-16 ">
@@ -38,7 +44,7 @@ export default function Navbar() {
               ) : (
                 <Link
                   href={link.href}
-                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-black"
+                  className="text-lg font-semibold text-gray-600 transition duration-100  hover:text-black"
                 >
                   {link.name}
                 </Link>

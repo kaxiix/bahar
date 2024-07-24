@@ -3,6 +3,8 @@
 import * as React from "react";
 
 import { Button } from "@/components/ui/button";
+import { MdArrowDropDownCircle } from "react-icons/md";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,8 +20,12 @@ const Cat = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="focus:ring-2 focus:ring-blue-500">
+        <Button
+          variant="outline"
+          className="focus:ring-2 ring-4 gap-3 hover:scale-110  font-bold flex justify-between px-5 bg-green-200 focus:ring-green-200"
+        >
           Filter
+          <MdArrowDropDownCircle className="w-5 text-green-900  h-5" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">

@@ -12,7 +12,7 @@ const page = () => {
           width={1200}
           height={500}
           alt="About Us"
-          className="aspect-[3/1] shadow-2xl w-full object-cover  md:rounded-xl border-2 border-[#409339]"
+          className="aspect-[3/1] hover:scale-95 transition-transform duration-300 shadow-2xl w-full object-cover  md:rounded-xl border-2 border-[#409339]"
         />
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32">
@@ -149,7 +149,7 @@ const page = () => {
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg"
+                  src="/client1.jpg"
                   width={140}
                   height={70}
                   alt="Client Logo"
@@ -158,7 +158,7 @@ const page = () => {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg"
+                  src="/client2.jpg"
                   width={140}
                   height={70}
                   alt="Client Logo"
@@ -167,7 +167,7 @@ const page = () => {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg"
+                  src="/client3.jpg"
                   width={140}
                   height={70}
                   alt="Client Logo"
@@ -176,7 +176,7 @@ const page = () => {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg"
+                  src="/client4.jpg"
                   width={140}
                   height={70}
                   alt="Client Logo"
@@ -185,7 +185,25 @@ const page = () => {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg"
+                  src="/client5.jpg"
+                  width={140}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/client6.jpg"
+                  width={140}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/client7.jpg"
                   width={140}
                   height={70}
                   alt="Client Logo"

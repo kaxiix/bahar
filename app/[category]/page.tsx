@@ -61,8 +61,10 @@ export default async function CategoryPage({
 
   return (
     <div className="bg-white ">
-      <div className="w-full px-36 pt-10 ">
-        <Cat />
+      <div className="w-full  flex pt-10 ">
+        <div className="mx-auto ">
+          <Cat />
+        </div>
       </div>
       <div className="mx-auto mt-8 max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8">
         <div className="flex justify-between items-center ">
@@ -79,11 +81,11 @@ export default async function CategoryPage({
           {data.map((product) => (
             <div key={product._id} className="group relative">
               <Link href={`/product/${product.slug}`}>
-                <div className="aspect-square w-full overflow-hidden  rounded-2xl bg-gray-200 group-hover:opacity-75 lg:h-80">
+                <div className="aspect-square w-full overflow-hidden bg-gray-200 rounded-2xl group-hover:opacity-75 group-hover:scale-105 transform transition duration-300 lg:h-80">
                   <Image
                     src={product.imageUrl}
                     alt="Product image"
-                    className="w-full h-full  object-cover object-center lg:h-full lg:w-full"
+                    className="w-full h-full object-cover rounded-2xl object-center lg:h-full lg:w-full"
                     width={300}
                     height={300}
                   />
