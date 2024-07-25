@@ -258,7 +258,7 @@ const Page: React.FC = () => {
               <div>
                 <button
                   type="submit"
-                  className="w-full mt-4 bg-primary/50 hover:bg-primary text-white font-medium py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                  className="w-full mt-4 bg-[#006d35] hover:bg-primary text-white font-medium py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                 >
                   Checkout
                 </button>
