@@ -36,10 +36,10 @@ export default async function Hero() {
               Committed To Culinary Perfection
             </h1>
             <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-              Bahar jeddah food company delivers top quality ingredients to the
-              kingdoms finest establishments, insuring you can craft every dish
-              with excellence and care. Trust us for unmatched quality and
-              service.
+              Bahar Jeddah Food Company delivers top quality ingredients to the
+              Kingdom&apos;s finest establishments, ensuring you can craft every
+              dish with excellence and care. Trust us for unmatched
+              quality and service.
             </p>
           </div>
 
@@ -73,26 +73,20 @@ export default async function Hero() {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
-          {/* <div className="flex h-12 w-64 divide-x overflow-hidden rounded-lg border">
-          <Link
-            href="/Men"
-            className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
-          >
-            Men
-          </Link>
-          <Link
-            href="/Women"
-            className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
-          >
-            Women
-          </Link>
-          <Link
-            href="/Teens"
-            className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
-          >
-            Teens
-          </Link>
-        </div> */}
+          <div className="flex h-12 mb-5 md:mb-0 bg-green-100/70  divide-x overflow-hidden rounded-lg border">
+            <Link
+              href="/all"
+              className="flex  px-5 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
+            >
+              Products
+            </Link>
+            <Link
+              href="/about"
+              className="flex px-5   items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
+            >
+              About us
+            </Link>
+          </div>
         </div>
       </section>
     </div>

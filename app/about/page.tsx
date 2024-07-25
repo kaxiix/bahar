@@ -22,24 +22,22 @@ const page = () => {
               About Our Company
             </h2>
             <p className="text-muted-foreground md:text-xl">
-              We are a team of passionate individuals dedicated to creating
-              innovative solutions that empower our clients to achieve their
-              goals. With years of experience in the industry, we pride
-              ourselves on our commitment to excellence and our ability to
-              deliver exceptional results.
+              Bahar Jeddah Food Co. is a premier supplier of premium food
+              products, serving the elite restaurants, luxury hotels, and
+              esteemed businesses of Jeddah. We specialize in sourcing and
+              delivering high-quality ingredients at competitive prices,
+              ensuring our clients always receive the best value for their
+              investment. Our diverse product range, from gourmet specialties to
+              everyday essentials, is carefully curated to meet the highest
+              standards of taste and quality.
             </p>
             <p className="text-muted-foreground md:text-xl">
-              Our mission is to be the leading provider of cutting-edge
-              technology solutions that drive business success. We believe in
-              the power of collaboration and strive to build strong partnerships
-              with our clients, working closely with them to understand their
-              unique needs and deliver tailored solutions.
-            </p>
-            <p className="text-muted-foreground md:text-xl">
-              At the heart of our company are our core values: innovation,
-              integrity, and a relentless pursuit of excellence. These values
-              guide every aspect of our work, from the way we approach
-              problem-solving to the way we treat our clients and each other.
+              Our commitment to excellence, affordability, and exceptional
+              customer service sets us apart in the food industry. At Bahar
+              Jeddah Food Co., we believe that top-tier products shouldn&apos;t
+              come with a high price tag. We are dedicated to bringing the
+              finest flavors to your table, making us your trusted and
+              cost-effective partner in every culinary endeavor.
             </p>
           </div>
         </div>
@@ -97,38 +95,31 @@ const page = () => {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Our Services
+              why Bahar Jeddah Food Co
             </h2>
-            <p className="text-muted-foreground md:text-xl">
-              We offer a wide range of services to help our clients achieve
-              their goals. From web development to cloud infrastructure, we have
-              the expertise to deliver tailored solutions that drive business
-              success.
-            </p>
+
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
               <div className="rounded-lg border bg-card p-6 shadow-sm">
-                <h3 className="text-lg font-semibold">Wholesale food items</h3>
+                <h3 className="text-lg font-semibold">Wholesale Food Supply</h3>
                 <p className="text-muted-foreground">
-                  Our team of experts offers top-quality wholesale food items,
-                  ensuring freshness and exceptional taste. We provide reliable,
-                  timely delivery for restaurants, hotels, and catering
-                  services, helping you serve your customers with the best.
+                  We provide a wide range of high-quality food products,
+                  including gourmet items, everyday essentials, and specialty
+                  ingredients, to restaurants, hotels, and businesses.
                 </p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
-                <h3 className="text-lg font-semibold">Cloud Infrastructure</h3>
+                <h3 className="text-lg font-semibold">Competitive Pricing</h3>
                 <p className="text-muted-foreground">
-                  We can help you build and manage scalable cloud infrastructure
-                  to support your business needs, ensuring reliability and
-                  security.
+                  We offer our products at competitive prices, providing
+                  excellent value without compromising on quality.
                 </p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
-                <h3 className="text-lg font-semibold">Data Analytics</h3>
+                <h3 className="text-lg font-semibold">Reliable Delivery</h3>
                 <p className="text-muted-foreground">
-                  Our data analytics experts can help you unlock valuable
-                  insights from your data, enabling you to make informed
-                  decisions that drive business growth.
+                  We ensure timely and reliable delivery of our products,
+                  maintaining the freshness and quality of the goods from our
+                  suppliers to our client&apos;s kitchens.
                 </p>
               </div>
             </div>
