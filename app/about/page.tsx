@@ -56,36 +56,40 @@ const page = () => {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
-                  src="/guy.webp"
+                  src="/ow1.jpg"
                   width={200}
                   height={200}
                   alt="John Doe"
                   className="mx-auto h-32 w-32 rounded-full object-cover"
                 />
-                <h3 className="mt-4 text-lg font-semibold">John Doe</h3>
-                <p className="text-muted-foreground">Co-Founder, CEO</p>
+                <h3 className="mt-4 text-lg font-semibold">
+                  Mr. Monirul Islam
+                </h3>
+                <p className="text-muted-foreground">CEO</p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
-                  src="/guy2.webp"
+                  src="/ow2.jpg"
                   width={200}
                   height={200}
                   alt="Jane Smith"
                   className="mx-auto h-32 w-32 rounded-full object-cover"
                 />
-                <h3 className="mt-4 text-lg font-semibold">Jane Smith</h3>
-                <p className="text-muted-foreground">Co-Founder, CTO</p>
+                <h3 className="mt-4 text-lg font-semibold">Mr. Ali Ammar</h3>
+                <p className="text-muted-foreground">Angel Investor</p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
-                  src="/guy3.webp"
+                  src="/ow3.jpg"
                   width={200}
                   height={200}
                   alt="Bob Johnson"
                   className="mx-auto h-32 w-32 rounded-full object-cover"
                 />
-                <h3 className="mt-4 text-lg font-semibold">Bob Johnson</h3>
-                <p className="text-muted-foreground">Lead Developer</p>
+                <h3 className="mt-4 text-lg font-semibold">
+                  Mr. Javed Hossain
+                </h3>
+                <p className="text-muted-foreground">Co-Founder</p>
               </div>
             </div>
           </div>
@@ -95,7 +99,7 @@ const page = () => {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              why Bahar Jeddah Food Co
+              Why Bahar Jeddah Food Co?
             </h2>
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
