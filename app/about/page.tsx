@@ -65,7 +65,7 @@ const page = () => {
                 <h3 className="mt-4 text-lg font-semibold">
                   Mr. Monirul Islam
                 </h3>
-                <p className="text-muted-foreground">CEO</p>
+                <p className="text-muted-foreground">Founder & CEO</p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
@@ -76,7 +76,7 @@ const page = () => {
                   className="mx-auto h-32 w-32 rounded-full object-cover"
                 />
                 <h3 className="mt-4 text-lg font-semibold">Mr. Ali Ammar</h3>
-                <p className="text-muted-foreground">Angel Investor</p>
+                <p className="text-muted-foreground">Chairman</p>
               </div>
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
@@ -89,7 +89,7 @@ const page = () => {
                 <h3 className="mt-4 text-lg font-semibold">
                   Mr. Javed Hossain
                 </h3>
-                <p className="text-muted-foreground">Co-Founder</p>
+                <p className="text-muted-foreground">Financial Director</p>
               </div>
             </div>
           </div>
@@ -197,13 +197,55 @@ const page = () => {
                 />
               </div>
               <div className="flex items-center justify-center">
-                <Image
+                {/* <Image
                   src="/client7.jpg"
+                  width={1000}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+                <Image
+                  src="/client8.jpg"
+                  width={500}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+                <Image
+                  src="/client9.jpg"
                   width={140}
                   height={70}
                   alt="Client Logo"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 />
+                <Image
+                  src="/client10.jpg"
+                  width={140}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+                <Image
+                  src="/client11.jpg"
+                  width={140}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+                <Image
+                  src="/client12.jpg"
+                  width={140}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                />
+                <Image
+                  src="/client13.jpg"
+                  width={140}
+                  height={70}
+                  alt="Client Logo"
+                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
+                /> */}
               </div>
             </div>
           </div>
