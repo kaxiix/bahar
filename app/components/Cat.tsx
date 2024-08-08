@@ -49,7 +49,9 @@ const Cat = () => {
             </DropdownMenuRadioItem>
           </a>
           <a href="/Ice-Cream">
-            <DropdownMenuRadioItem value="top">Ice-Cream</DropdownMenuRadioItem>
+            <DropdownMenuRadioItem value="top">
+              Ice-Cream-and-Chocolates
+            </DropdownMenuRadioItem>
           </a>
           <a href="/Condiments">
             <DropdownMenuRadioItem value="top">
@@ -61,6 +63,26 @@ const Cat = () => {
           </a>
           <a href="/Bun">
             <DropdownMenuRadioItem value="top">Bun</DropdownMenuRadioItem>
+          </a>
+          <a href="/Fresh-and-Frozen-Meat">
+            <DropdownMenuRadioItem value="top">
+              Fresh-and-Frozen-Meat
+            </DropdownMenuRadioItem>
+          </a>
+          <a href="/Convenience-Food">
+            <DropdownMenuRadioItem value="top">
+              Convenience-Food
+            </DropdownMenuRadioItem>
+          </a>
+          <a href="/Breaded-Products">
+            <DropdownMenuRadioItem value="top">
+              Breaded-Products
+            </DropdownMenuRadioItem>
+          </a>
+          <a href="/Dairy-and-Cheese">
+            <DropdownMenuRadioItem value="top">
+              Dairy-and-Cheese
+            </DropdownMenuRadioItem>
           </a>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
